@@ -211,9 +211,10 @@ export default function About({ className = "" }: AboutProps) {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/profile.php?id=100083341390935&rdid=TTYhm7BxojJgMEeB&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16wuK3cYrV%2F"
                   className="text-[#2F5D8C] hover:text-[#3A7D44] transition-colors duration-200"
-                  aria-label="Facebook do Pastor João"
+                  target="_blank"
+                  aria-label="Facebook do Pastor Iraquitan Tunoda"
                 >
                   <svg
                     className="w-6 h-6"
