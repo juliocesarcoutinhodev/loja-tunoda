@@ -133,8 +133,8 @@ export default function About({ className = "" }: AboutProps) {
             <div className="relative group">
               <div className="absolute -inset-6 bg-gradient-to-r from-[#2F5D8C] to-[#3A7D44] rounded-3xl blur-md opacity-20 group-hover:opacity-30 transition-opacity duration-300"></div>
               <img
-                src="/api/placeholder/500/600"
-                alt="Pastor João Silva - Autor dos livros cristãos"
+                src="/img/img2.jpeg"
+                alt="Pastor Iraquitan Tunoda - Autor dos livros cristãos e missionário no Japão"
                 className="relative w-full h-96 lg:h-[500px] object-cover rounded-3xl shadow-2xl"
                 loading="lazy"
               />
@@ -152,45 +152,54 @@ export default function About({ className = "" }: AboutProps) {
           >
             <div className="space-y-4">
               <h3 className="font-playfair text-3xl lg:text-4xl font-bold text-[#2E2E2E]">
-                Pastor João Silva
+                Pastor Iraquitan Tunoda
               </h3>
               <p className="font-inter text-lg text-[#2F5D8C] font-semibold">
-                Escritor, Pastor e Conferencista
+                Escritor, Pastor Missionário e Conferencista
               </p>
             </div>
 
             <div className="space-y-4 font-inter text-[#2E2E2E] opacity-90 leading-relaxed">
               <p>
                 Com mais de duas décadas dedicadas ao ministério cristão, Pastor
-                João Silva tem tocado milhares de vidas através de suas
-                mensagens inspiradoras e transformadoras.
+                Iraquitan Tunoda tem uma trajetória única e inspiradora, tendo
+                servido como missionário no
+                <span className="font-semibold text-[#2F5D8C]">
+                  {" "}
+                  Japão por mais de 20 anos
+                </span>
+                , propagando o evangelho e tocando milhares de vidas através de
+                suas mensagens transformadoras.
               </p>
               <p>
-                Graduado em Teologia e com especialização em Aconselhamento
-                Pastoral, ele combina conhecimento bíblico profundo com uma
-                abordagem acessível e amorosa, tornando as verdades eternas
-                relevantes para nossa vida cotidiana.
+                Sua experiência missionária no Oriente trouxe uma perspectiva
+                única sobre a fé cristã, combinando sabedoria bíblica profunda
+                com compreensão intercultural. Graduado em Teologia, ele dedica
+                sua vida a tornar as verdades eternas relevantes e acessíveis
+                para pessoas de todas as culturas.
               </p>
               <p>
-                Seus livros são o resultado de anos de experiência pastoral,
+                Seus livros são fruto de décadas de ministério internacional,
                 oração e estudo das Escrituras, oferecendo palavras de{" "}
                 <span className="font-semibold text-[#2F5D8C]">esperança</span>,{" "}
                 <span className="font-semibold text-[#3A7D44]">paz</span> e{" "}
                 <span className="font-semibold text-[#C9A44C]">renovação</span>{" "}
-                para todos que buscam crescimento espiritual.
+                para todos que buscam crescimento espiritual e propósito divino.
               </p>
             </div>
 
             {/* Contact Info */}
             <div className="pt-6 border-t border-[#2F5D8C]/20">
               <p className="font-inter text-sm text-[#2E2E2E] opacity-70 mb-4">
-                Conecte-se com Pastor João:
+                Conecte-se com Pastor Iraquitan:
               </p>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/iraquitantunoda/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-[#2F5D8C] hover:text-[#3A7D44] transition-colors duration-200"
-                  aria-label="Instagram do Pastor João"
+                  aria-label="Instagram do Pastor Iraquitan Tunoda"
                 >
                   <svg
                     className="w-6 h-6"

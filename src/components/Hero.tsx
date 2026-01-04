@@ -27,8 +27,8 @@ export default function Hero({ className = "" }: HeroProps) {
           <div className="relative group">
             <div className="absolute -inset-4 bg-gradient-to-r from-[#2F5D8C] to-[#3A7D44] rounded-2xl blur-sm opacity-20 group-hover:opacity-30 transition-opacity duration-300"></div>
             <img
-              src="/api/placeholder/400/500"
-              alt="Pastor João - Autor dos livros cristãos, transmitindo paz e serenidade"
+              src="/img/img1.jpeg"
+              alt="Pastor Iraquitan Tunoda - Missionário e autor dos livros cristãos, transmitindo paz e serenidade"
               className="relative w-80 h-96 sm:w-96 sm:h-[28rem] lg:w-full lg:h-[32rem] object-cover rounded-2xl shadow-2xl"
               loading="eager"
             />
@@ -88,6 +88,16 @@ export default function Hero({ className = "" }: HeroProps) {
             }`}
           >
             <button
+              onClick={() => {
+                const element = document.getElementById("livros");
+                if (element) {
+                  const offsetTop = element.offsetTop - 80;
+                  window.scrollTo({
+                    top: offsetTop,
+                    behavior: "smooth",
+                  });
+                }
+              }}
               className="group relative inline-flex items-center justify-center px-8 py-4 sm:px-10 sm:py-5 text-lg sm:text-xl font-inter font-semibold text-white bg-[#C9A44C] rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-out focus:outline-none focus:ring-4 focus:ring-[#C9A44C] focus:ring-opacity-30"
               aria-label="Adquirir os livros cristãos - Clique para comprar"
             >

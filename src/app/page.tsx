@@ -81,7 +81,7 @@ export default function Home() {
 
             <div className="mt-8 pt-8 border-t border-white/20 text-center">
               <p className="font-inter text-white/60 text-sm">
-                © 2026 Pastor João Silva. Todos os direitos reservados.
+                © 2026 Pastor Iraquitan Tunoda. Todos os direitos reservados.
               </p>
             </div>
           </div>

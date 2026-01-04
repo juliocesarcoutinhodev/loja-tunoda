@@ -10,8 +10,8 @@ const booksData: Book[] = [
     description:
       "Uma jornada transformadora através das palavras sagradas que renovam o coração e fortalecem a fé em momentos de dificuldade.",
     price: 45.9,
-    image: "/api/placeholder/300/400",
-    author: "Pastor João Silva",
+    image: "/img/img3.jpeg",
+    author: "Pastor Iraquitan Tunoda",
   },
   {
     id: "2",
@@ -19,8 +19,8 @@ const booksData: Book[] = [
     description:
       "Descubra como encontrar serenidade verdadeira em meio ao caos do mundo moderno através dos ensinamentos cristãos.",
     price: 52.9,
-    image: "/api/placeholder/300/400",
-    author: "Pastor João Silva",
+    image: "/img/img4.jpeg",
+    author: "Pastor Iraquitan Tunoda",
   },
   {
     id: "3",
@@ -28,8 +28,8 @@ const booksData: Book[] = [
     description:
       "Mensagens inspiradoras que despertam a alegria interior e transformam perspectivas através do poder da palavra divina.",
     price: 48.9,
-    image: "/api/placeholder/300/400",
-    author: "Pastor João Silva",
+    image: "/img/img1.jpeg",
+    author: "Pastor Iraquitan Tunoda",
   },
   {
     id: "4",
@@ -37,8 +37,8 @@ const booksData: Book[] = [
     description:
       "Reflexões profundas sobre como construir uma fé sólida que permanece firme diante das tempestades da vida.",
     price: 55.9,
-    image: "/api/placeholder/300/400",
-    author: "Pastor João Silva",
+    image: "/img/img2.jpeg",
+    author: "Pastor Iraquitan Tunoda",
   },
   {
     id: "5",
@@ -46,8 +46,8 @@ const booksData: Book[] = [
     description:
       "Aprenda a depositar sua confiança completamente em Deus e experimente a liberdade que vem da entrega total.",
     price: 49.9,
-    image: "/api/placeholder/300/400",
-    author: "Pastor João Silva",
+    image: "/img/img3.jpeg",
+    author: "Pastor Iraquitan Tunoda",
   },
   {
     id: "6",
@@ -55,8 +55,8 @@ const booksData: Book[] = [
     description:
       "Descubra o plano que Deus tem para sua vida e como caminhar em direção ao seu propósito com determinação.",
     price: 58.9,
-    image: "/api/placeholder/300/400",
-    author: "Pastor João Silva",
+    image: "/img/img4.jpeg",
+    author: "Pastor Iraquitan Tunoda",
   },
 ];
 
